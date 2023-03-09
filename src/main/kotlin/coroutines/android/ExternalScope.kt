@@ -3,6 +3,9 @@ package coroutines.android
 import kotlinx.coroutines.*
 import kotlin.time.Duration
 
+/**
+ * This is not very pretty, but it's just for notes
+ */
 fun simulateExternalScope(): Unit = runBlocking { // run blocking starts a coroutineScope that blocks the (by deault) Main dispatcher until all its functions are done
     withTimeoutOrNull(5000) { // with timeout launches a coroutineScope that is canceled after a certain timeout
         refreshDevices() // simulating clicking the refresh devices button. See this function for details - it launches two coroutine scopes
