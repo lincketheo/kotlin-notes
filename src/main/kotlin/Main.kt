@@ -1,5 +1,5 @@
-import coroutines.android.simulateExternalScope
+import exceptions.blogpost.example4.errorHandlingExampleMain
 
 fun main(args: Array<String>) {
-    simulateExternalScope()
+    errorHandlingExampleMain()
 }
