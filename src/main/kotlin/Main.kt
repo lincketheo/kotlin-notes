@@ -1,5 +1,5 @@
-import exceptions.blogpost.example4.errorHandlingExampleMain
+import reflection.serializationexample.serializationReflectionMain
 
 fun main(args: Array<String>) {
-    errorHandlingExampleMain()
+    serializationReflectionMain()
 }

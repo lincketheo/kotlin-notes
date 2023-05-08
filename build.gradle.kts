@@ -15,6 +15,9 @@ repositories {
 dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0-Beta")
     testImplementation(kotlin("test"))
+
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.9.8")
+    implementation("org.jetbrains.kotlin:kotlin-reflect:1.8.21")
 }
 
 tasks.test {
